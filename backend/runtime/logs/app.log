@@ -1,0 +1,348 @@
+2015-10-20 09:38:00 [127.0.0.1][-][v7dj07cm7h6nd1kg457dbt7j54][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ',', expecting ']'' in F:\gitspace\jsshop\common\models\LoginForm.php:30
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-10-20 09:38:00 [127.0.0.1][-][v7dj07cm7h6nd1kg457dbt7j54][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7dj07cm7h6nd1kg457dbt7j54'
+    '_csrf' => '8142ef4df3ac23987b2e8d58f1f985a277d780943892e21d5cdcccc015b817cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"RvHXEfkkGuXoS9URnT9N3L83TJ58In3Z\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.jsshop.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7dj07cm7h6nd1kg457dbt7j54; _csrf=8142ef4df3ac23987b2e8d58f1f985a277d780943892e21d5cdcccc015b817cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22RvHXEfkkGuXoS9URnT9N3L83TJ58In3Z%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Java\\jdk1.7.0_79\\bin;C:\\Program Files\\Java\\jdk1.7.0_79\\jre\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\scala\\bin;C:\\Python27;C:\\Program Files\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;E:\\wamp\\php-5.5.30-Win32-VC11-x64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.5.30'
+    'SERVER_NAME' => 'www.jsshop.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/gitspace/jsshop/backend/web/index.php'
+    'REMOTE_PORT' => '53392'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1445305079.994
+    'REQUEST_TIME' => 1445305079
+]
+2015-10-20 09:38:16 [127.0.0.1][-][v7dj07cm7h6nd1kg457dbt7j54][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ',', expecting ']'' in F:\gitspace\jsshop\common\models\LoginForm.php:30
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-10-20 09:38:16 [127.0.0.1][-][v7dj07cm7h6nd1kg457dbt7j54][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7dj07cm7h6nd1kg457dbt7j54'
+    '_csrf' => '8142ef4df3ac23987b2e8d58f1f985a277d780943892e21d5cdcccc015b817cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"RvHXEfkkGuXoS9URnT9N3L83TJ58In3Z\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.jsshop.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7dj07cm7h6nd1kg457dbt7j54; _csrf=8142ef4df3ac23987b2e8d58f1f985a277d780943892e21d5cdcccc015b817cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22RvHXEfkkGuXoS9URnT9N3L83TJ58In3Z%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Java\\jdk1.7.0_79\\bin;C:\\Program Files\\Java\\jdk1.7.0_79\\jre\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\scala\\bin;C:\\Python27;C:\\Program Files\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;E:\\wamp\\php-5.5.30-Win32-VC11-x64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.5.30'
+    'SERVER_NAME' => 'www.jsshop.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/gitspace/jsshop/backend/web/index.php'
+    'REMOTE_PORT' => '53403'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1445305096.702
+    'REQUEST_TIME' => 1445305096
+]
+2015-10-20 09:38:18 [127.0.0.1][-][v7dj07cm7h6nd1kg457dbt7j54][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ',', expecting ']'' in F:\gitspace\jsshop\common\models\LoginForm.php:30
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-10-20 09:38:18 [127.0.0.1][-][v7dj07cm7h6nd1kg457dbt7j54][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7dj07cm7h6nd1kg457dbt7j54'
+    '_csrf' => '8142ef4df3ac23987b2e8d58f1f985a277d780943892e21d5cdcccc015b817cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"RvHXEfkkGuXoS9URnT9N3L83TJ58In3Z\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.jsshop.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7dj07cm7h6nd1kg457dbt7j54; _csrf=8142ef4df3ac23987b2e8d58f1f985a277d780943892e21d5cdcccc015b817cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22RvHXEfkkGuXoS9URnT9N3L83TJ58In3Z%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Java\\jdk1.7.0_79\\bin;C:\\Program Files\\Java\\jdk1.7.0_79\\jre\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\scala\\bin;C:\\Python27;C:\\Program Files\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;E:\\wamp\\php-5.5.30-Win32-VC11-x64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.5.30'
+    'SERVER_NAME' => 'www.jsshop.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/gitspace/jsshop/backend/web/index.php'
+    'REMOTE_PORT' => '53404'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1445305098.452
+    'REQUEST_TIME' => 1445305098
+]
+2015-10-20 09:38:19 [127.0.0.1][-][v7dj07cm7h6nd1kg457dbt7j54][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ',', expecting ']'' in F:\gitspace\jsshop\common\models\LoginForm.php:30
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-10-20 09:38:19 [127.0.0.1][-][v7dj07cm7h6nd1kg457dbt7j54][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7dj07cm7h6nd1kg457dbt7j54'
+    '_csrf' => '8142ef4df3ac23987b2e8d58f1f985a277d780943892e21d5cdcccc015b817cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"RvHXEfkkGuXoS9URnT9N3L83TJ58In3Z\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.jsshop.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7dj07cm7h6nd1kg457dbt7j54; _csrf=8142ef4df3ac23987b2e8d58f1f985a277d780943892e21d5cdcccc015b817cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22RvHXEfkkGuXoS9URnT9N3L83TJ58In3Z%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Java\\jdk1.7.0_79\\bin;C:\\Program Files\\Java\\jdk1.7.0_79\\jre\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\scala\\bin;C:\\Python27;C:\\Program Files\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;E:\\wamp\\php-5.5.30-Win32-VC11-x64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.5.30'
+    'SERVER_NAME' => 'www.jsshop.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/gitspace/jsshop/backend/web/index.php'
+    'REMOTE_PORT' => '53405'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1445305099.171
+    'REQUEST_TIME' => 1445305099
+]
+2015-10-20 09:54:22 [127.0.0.1][-][v7dj07cm7h6nd1kg457dbt7j54][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'jsshop'' in F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Schema.php(477): yii\db\Connection->getSlavePdo()
+#5 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('<span class="st...')
+#6 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Command.php(172): yii\db\Connection->quoteValue('<span class="st...')
+#7 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Command.php(806): yii\db\Command->getRawSql()
+#8 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#9 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#10 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#11 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\BaseActiveRecord.php(102): yii\db\ActiveQuery->one()
+#12 F:\gitspace\jsshop\common\models\User.php(82): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#13 F:\gitspace\jsshop\common\models\LoginForm.php(75): common\models\User::findByUsername('<span class="st...')
+#14 F:\gitspace\jsshop\common\models\LoginForm.php(46): common\models\LoginForm->getUser()
+#15 [internal function]: common\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...')
+#16 F:\gitspace\jsshop\vendor\yiisoft\yii2\validators\InlineValidator.php(69): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...')
+#17 F:\gitspace\jsshop\vendor\yiisoft\yii2\validators\Validator.php(240): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), '<span class="st...')
+#18 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\Model.php(352): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), '[<span class="s...')
+#19 F:\gitspace\jsshop\common\models\LoginForm.php(60): yii\base\Model->validate()
+#20 F:\gitspace\jsshop\backend\controllers\SiteController.php(68): common\models\LoginForm->login()
+#21 [internal function]: backend\controllers\SiteController->actionLogin()
+#22 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#23 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#24 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#25 F:\gitspace\jsshop\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#26 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#27 F:\gitspace\jsshop\backend\web\index.php(18): yii\base\Application->run()
+#28 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'jsshop'' in F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Schema.php(477): yii\db\Connection->getSlavePdo()
+#3 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('<span class="st...')
+#4 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Command.php(172): yii\db\Connection->quoteValue('<span class="st...')
+#5 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Command.php(806): yii\db\Command->getRawSql()
+#6 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#7 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#8 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#9 F:\gitspace\jsshop\vendor\yiisoft\yii2\db\BaseActiveRecord.php(102): yii\db\ActiveQuery->one()
+#10 F:\gitspace\jsshop\common\models\User.php(82): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#11 F:\gitspace\jsshop\common\models\LoginForm.php(75): common\models\User::findByUsername('<span class="st...')
+#12 F:\gitspace\jsshop\common\models\LoginForm.php(46): common\models\LoginForm->getUser()
+#13 [internal function]: common\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...')
+#14 F:\gitspace\jsshop\vendor\yiisoft\yii2\validators\InlineValidator.php(69): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...')
+#15 F:\gitspace\jsshop\vendor\yiisoft\yii2\validators\Validator.php(240): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), '<span class="st...')
+#16 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\Model.php(352): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), '[<span class="s...')
+#17 F:\gitspace\jsshop\common\models\LoginForm.php(60): yii\base\Model->validate()
+#18 F:\gitspace\jsshop\backend\controllers\SiteController.php(68): common\models\LoginForm->login()
+#19 [internal function]: backend\controllers\SiteController->actionLogin()
+#20 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#21 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#22 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#23 F:\gitspace\jsshop\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#24 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 F:\gitspace\jsshop\backend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+Additional Information:
+
+2015-10-20 09:54:22 [127.0.0.1][-][v7dj07cm7h6nd1kg457dbt7j54][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'Tmx3bFlnZ2ccGj80HAEMDAkZLwMKXjI1IDhOImorX1QaJkJUEAlUPQ=='
+    'LoginForm' => [
+        'username' => '是对方是否'
+        'password' => 'sdfsf'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'v7dj07cm7h6nd1kg457dbt7j54'
+    '_csrf' => '8142ef4df3ac23987b2e8d58f1f985a277d780943892e21d5cdcccc015b817cca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"RvHXEfkkGuXoS9URnT9N3L83TJ58In3Z\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.jsshop.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '236'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://www.jsshop.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://www.jsshop.com/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=v7dj07cm7h6nd1kg457dbt7j54; _csrf=8142ef4df3ac23987b2e8d58f1f985a277d780943892e21d5cdcccc015b817cca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22RvHXEfkkGuXoS9URnT9N3L83TJ58In3Z%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Java\\jdk1.7.0_79\\bin;C:\\Program Files\\Java\\jdk1.7.0_79\\jre\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\scala\\bin;C:\\Python27;C:\\Program Files\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseSVN\\bin;E:\\wamp\\php-5.5.30-Win32-VC11-x64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.5.30'
+    'SERVER_NAME' => 'www.jsshop.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/gitspace/jsshop/backend/web/index.php'
+    'REMOTE_PORT' => '54263'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1445306062.354
+    'REQUEST_TIME' => 1445306062
+]
