@@ -53,27 +53,44 @@ class SiteController extends Controller
         ];
     }
 
+    /**
+     * 首页
+     * @return string
+     */
     public function actionIndex()
     {
         return $this->render('index');
     }
 
+    /**
+     * 登录
+     * @return string|\yii\web\Response
+     */
     public function actionLogin()
     {
-        if (!\Yii::$app->user->isGuest) {
+        $this->layout='login';
+        if (!\Yii::$app->user->isGuest)
+        {
             return $this->goHome();
         }
 
         $model = new LoginForm();
-        if ($model->load(Yii::$app->request->post()) && $model->login()) {
+        if ($model->load(Yii::$app->request->post()) && $model->login())
+        {
             return $this->goBack();
-        } else {
+        }
+        else
+        {
             return $this->render('login', [
                 'model' => $model,
             ]);
         }
     }
 
+    /**
+     * 退出
+     * @return \yii\web\Response
+     */
     public function actionLogout()
     {
         Yii::$app->user->logout();

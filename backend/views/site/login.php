@@ -7,17 +7,24 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 
-$this->title = 'Login';
+$this->title = '管理中心';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="site-login">
+<div style="width: 500px;height: auto;margin: 20px auto;padding: 20px auto;color:white;">
     <h1><?= Html::encode($this->title) ?></h1>
 
-    <p>Please fill out the following fields to login:</p>
+    <p>请输入账号和密码:</p>
 
     <div class="row">
-        <div class="col-lg-5">
-            <?php $form = ActiveForm::begin(['id' => 'login-form']); ?>
+        <div class="col-lg-12">
+            <?php $form = ActiveForm::begin([
+                'id' => 'login-form',
+                'options'=>['class'=>'form-horizontal'],
+                'fieldConfig'=>[
+                    'template'=>"{label}\n<div class=\"col-lg-7\">{input}</div>\n<div class='col-lg-3'>{error}</div>",
+                    'labelOptions'=>['class'=>'col-lg-2 control-label']
+                ]
+            ]); ?>
 
                 <?= $form->field($model, 'username') ?>
 
@@ -25,8 +32,8 @@ $this->params['breadcrumbs'][] = $this->title;
 
                 <?= $form->field($model, 'rememberMe')->checkbox() ?>
 
-                <div class="form-group">
-                    <?= Html::submitButton('Login', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
+                <div class="form-group" style="padding-left: 20%;">
+                    <?= Html::submitButton('进入管理中心', ['class' => 'btn btn-primary', 'name' => 'login-button' ,'style'=>'background:white;color:black;']) ?>
                 </div>
 
             <?php ActiveForm::end(); ?>

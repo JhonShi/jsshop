@@ -346,3 +346,394 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1445306062.354
     'REQUEST_TIME' => 1445306062
 ]
+2015-11-12 11:49:19 [127.0.0.1][-][f3l7l8s0iorht13vscfboibil0][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Html' not found' in F:\gitspace\jsshop\backend\views\layouts\login.php:19
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-12 11:49:19 [127.0.0.1][-][f3l7l8s0iorht13vscfboibil0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'f3l7l8s0iorht13vscfboibil0'
+    '_csrf' => '2df19557bc93aa8dddd931156840b53ee7c9424f503ddf9faaec17aee4e26ae0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6oRyxsOS4RdCNGoMSEP-GQWoJdHgfdFi\";}'
+    '_5t_trace_sid' => '330e73ce5dd2d68bf57203b2accb9ff2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.jsshop.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=f3l7l8s0iorht13vscfboibil0; _csrf=2df19557bc93aa8dddd931156840b53ee7c9424f503ddf9faaec17aee4e26ae0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226oRyxsOS4RdCNGoMSEP-GQWoJdHgfdFi%22%3B%7D; _5t_trace_sid=330e73ce5dd2d68bf57203b2accb9ff2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Java\\jdk1.7.0_79\\bin;C:\\Program Files\\Java\\jdk1.7.0_79\\jre\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\scala\\bin;C:\\Python27;C:\\Program Files\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\ProgramData\\ComposerSetup\\bin;E:\\wamp\\php-5.5.30-Win32-VC11-x64;C:\\Program Files\\TortoiseSVN\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.5.30'
+    'SERVER_NAME' => 'www.jsshop.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/gitspace/jsshop/backend/web/index.php'
+    'REMOTE_PORT' => '53373'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1447300159.624
+    'REQUEST_TIME' => 1447300159
+]
+2015-11-12 12:25:02 [127.0.0.1][-][f3l7l8s0iorht13vscfboibil0][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of common\models\LoginForm::validatePassword() should be compatible with common\models\User::validatePassword($password)' in F:\gitspace\jsshop\common\models\LoginForm.php:10
+Stack trace:
+#0 F:\gitspace\jsshop\common\models\LoginForm.php(10): yii\base\ErrorHandler->handleError(2048, 'Declaration of ...', 'F:\\gitspace\\jss...', 10, Array)
+#1 F:\gitspace\jsshop\vendor\yiisoft\yii2\BaseYii.php(288): include('F:\\gitspace\\jss...')
+#2 [internal function]: yii\BaseYii::autoload('common\\models\\L...')
+#3 F:\gitspace\jsshop\backend\controllers\SiteController.php(68): spl_autoload_call('common\\models\\L...')
+#4 [internal function]: backend\controllers\SiteController->actionLogin()
+#5 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#7 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#8 F:\gitspace\jsshop\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#9 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 F:\gitspace\jsshop\backend\web\index.php(18): yii\base\Application->run()
+#11 {main}
+2015-11-12 12:25:02 [127.0.0.1][-][f3l7l8s0iorht13vscfboibil0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'f3l7l8s0iorht13vscfboibil0'
+    '_csrf' => '2df19557bc93aa8dddd931156840b53ee7c9424f503ddf9faaec17aee4e26ae0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6oRyxsOS4RdCNGoMSEP-GQWoJdHgfdFi\";}'
+    '_5t_trace_sid' => '0149b8e8155e38bc4328a23ddb846a32'
+    '_5t_trace_tms' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.jsshop.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=f3l7l8s0iorht13vscfboibil0; _csrf=2df19557bc93aa8dddd931156840b53ee7c9424f503ddf9faaec17aee4e26ae0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226oRyxsOS4RdCNGoMSEP-GQWoJdHgfdFi%22%3B%7D; _5t_trace_sid=0149b8e8155e38bc4328a23ddb846a32; _5t_trace_tms=1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Java\\jdk1.7.0_79\\bin;C:\\Program Files\\Java\\jdk1.7.0_79\\jre\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\scala\\bin;C:\\Python27;C:\\Program Files\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\ProgramData\\ComposerSetup\\bin;E:\\wamp\\php-5.5.30-Win32-VC11-x64;C:\\Program Files\\TortoiseSVN\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.5.30'
+    'SERVER_NAME' => 'www.jsshop.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/gitspace/jsshop/backend/web/index.php'
+    'REMOTE_PORT' => '55635'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1447302302.438
+    'REQUEST_TIME' => 1447302302
+]
+2015-11-12 12:25:02 [127.0.0.1][-][f3l7l8s0iorht13vscfboibil0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in F:\gitspace\jsshop\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 F:\gitspace\jsshop\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 F:\gitspace\jsshop\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 F:\gitspace\jsshop\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 F:\gitspace\jsshop\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2015-11-12 12:25:02 [127.0.0.1][-][f3l7l8s0iorht13vscfboibil0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'f3l7l8s0iorht13vscfboibil0'
+    '_csrf' => '2df19557bc93aa8dddd931156840b53ee7c9424f503ddf9faaec17aee4e26ae0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6oRyxsOS4RdCNGoMSEP-GQWoJdHgfdFi\";}'
+    '_5t_trace_sid' => '0149b8e8155e38bc4328a23ddb846a32'
+    '_5t_trace_tms' => '1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.jsshop.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=f3l7l8s0iorht13vscfboibil0; _csrf=2df19557bc93aa8dddd931156840b53ee7c9424f503ddf9faaec17aee4e26ae0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226oRyxsOS4RdCNGoMSEP-GQWoJdHgfdFi%22%3B%7D; _5t_trace_sid=0149b8e8155e38bc4328a23ddb846a32; _5t_trace_tms=1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Java\\jdk1.7.0_79\\bin;C:\\Program Files\\Java\\jdk1.7.0_79\\jre\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\scala\\bin;C:\\Python27;C:\\Program Files\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\ProgramData\\ComposerSetup\\bin;E:\\wamp\\php-5.5.30-Win32-VC11-x64;C:\\Program Files\\TortoiseSVN\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.5.30'
+    'SERVER_NAME' => 'www.jsshop.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/gitspace/jsshop/backend/web/index.php'
+    'REMOTE_PORT' => '55635'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1447302302.438
+    'REQUEST_TIME' => 1447302302
+]
+2015-11-12 14:45:07 [127.0.0.1][-][f3l7l8s0iorht13vscfboibil0][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Illegal string offset 'id'' in F:\gitspace\jsshop\vendor\yiisoft\yii2\widgets\ActiveForm.php:179
+Stack trace:
+#0 F:\gitspace\jsshop\vendor\yiisoft\yii2\widgets\ActiveForm.php(179): yii\base\ErrorHandler->handleError(2, 'Illegal string ...', 'F:\\gitspace\\jss...', 179, Array)
+#1 F:\gitspace\jsshop\vendor\yiisoft\yii2-bootstrap\ActiveForm.php(99): yii\widgets\ActiveForm->init()
+#2 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\Object.php(107): yii\bootstrap\ActiveForm->init()
+#3 [internal function]: yii\base\Object->__construct(Array)
+#4 F:\gitspace\jsshop\vendor\yiisoft\yii2\di\Container.php(372): ReflectionClass->newInstanceArgs(Array)
+#5 F:\gitspace\jsshop\vendor\yiisoft\yii2\di\Container.php(151): yii\di\Container->build('yii\\bootstrap\\A...', Array, Array)
+#6 F:\gitspace\jsshop\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\bootstrap\\A...', Array, Array)
+#7 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\Widget.php(56): yii\BaseYii::createObject(Array)
+#8 F:\gitspace\jsshop\backend\views\site\login.php(27): yii\base\Widget::begin(Array)
+#9 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\View.php(325): require('F:\\gitspace\\jss...')
+#10 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\gitspace\\jss...', Array)
+#11 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\gitspace\\jss...', Array, Object(backend\controllers\SiteController))
+#12 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('login', Array, Object(backend\controllers\SiteController))
+#13 F:\gitspace\jsshop\backend\controllers\SiteController.php(74): yii\base\Controller->render('login', Array)
+#14 [internal function]: backend\controllers\SiteController->actionLogin()
+#15 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#16 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#17 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#18 F:\gitspace\jsshop\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/login', Array)
+#19 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 F:\gitspace\jsshop\backend\web\index.php(18): yii\base\Application->run()
+#21 {main}
+2015-11-12 14:45:06 [127.0.0.1][-][f3l7l8s0iorht13vscfboibil0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'f3l7l8s0iorht13vscfboibil0'
+    '_csrf' => '2df19557bc93aa8dddd931156840b53ee7c9424f503ddf9faaec17aee4e26ae0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6oRyxsOS4RdCNGoMSEP-GQWoJdHgfdFi\";}'
+    '_5t_trace_sid' => '0149b8e8155e38bc4328a23ddb846a32'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.jsshop.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=f3l7l8s0iorht13vscfboibil0; _csrf=2df19557bc93aa8dddd931156840b53ee7c9424f503ddf9faaec17aee4e26ae0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226oRyxsOS4RdCNGoMSEP-GQWoJdHgfdFi%22%3B%7D; _5t_trace_sid=0149b8e8155e38bc4328a23ddb846a32'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Java\\jdk1.7.0_79\\bin;C:\\Program Files\\Java\\jdk1.7.0_79\\jre\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\scala\\bin;C:\\Python27;C:\\Program Files\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\ProgramData\\ComposerSetup\\bin;E:\\wamp\\php-5.5.30-Win32-VC11-x64;C:\\Program Files\\TortoiseSVN\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.5.30'
+    'SERVER_NAME' => 'www.jsshop.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/gitspace/jsshop/backend/web/index.php'
+    'REMOTE_PORT' => '56612'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1447310706.852
+    'REQUEST_TIME' => 1447310706
+]
+2015-11-12 14:45:07 [127.0.0.1][-][f3l7l8s0iorht13vscfboibil0][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in F:\gitspace\jsshop\vendor\yiisoft\yii2-debug\LogTarget.php:58
+
+Stack trace:
+#0 F:\gitspace\jsshop\vendor\yiisoft\yii2-debug\LogTarget.php(58): serialize(Array)
+#1 F:\gitspace\jsshop\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#2 F:\gitspace\jsshop\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#3 F:\gitspace\jsshop\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 F:\gitspace\jsshop\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#6 {main}
+2015-11-12 14:45:06 [127.0.0.1][-][f3l7l8s0iorht13vscfboibil0][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'f3l7l8s0iorht13vscfboibil0'
+    '_csrf' => '2df19557bc93aa8dddd931156840b53ee7c9424f503ddf9faaec17aee4e26ae0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6oRyxsOS4RdCNGoMSEP-GQWoJdHgfdFi\";}'
+    '_5t_trace_sid' => '0149b8e8155e38bc4328a23ddb846a32'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.jsshop.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=f3l7l8s0iorht13vscfboibil0; _csrf=2df19557bc93aa8dddd931156840b53ee7c9424f503ddf9faaec17aee4e26ae0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226oRyxsOS4RdCNGoMSEP-GQWoJdHgfdFi%22%3B%7D; _5t_trace_sid=0149b8e8155e38bc4328a23ddb846a32'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Java\\jdk1.7.0_79\\bin;C:\\Program Files\\Java\\jdk1.7.0_79\\jre\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\scala\\bin;C:\\Python27;C:\\Program Files\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\ProgramData\\ComposerSetup\\bin;E:\\wamp\\php-5.5.30-Win32-VC11-x64;C:\\Program Files\\TortoiseSVN\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.5.30'
+    'SERVER_NAME' => 'www.jsshop.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/gitspace/jsshop/backend/web/index.php'
+    'REMOTE_PORT' => '56612'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1447310706.852
+    'REQUEST_TIME' => 1447310706
+]
+2015-11-12 15:23:57 [127.0.0.1][-][-][error][yii\web\Session::open] session_start(): Failed to decode session object. Session has been destroyed
+    in F:\gitspace\jsshop\backend\controllers\SiteController.php:64
+2015-11-12 15:23:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'VUJaTDFLNnhjLQg1STh5K2EQPg9/DFk1BgcKYXYaYRcfJhIrVy9wEQ=='
+    'LoginForm' => [
+        'username' => '胜多负少'
+        'password' => 'sdfsdfsdfds'
+        'rememberMe' => '0'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'f3l7l8s0iorht13vscfboibil0'
+    '_csrf' => '2df19557bc93aa8dddd931156840b53ee7c9424f503ddf9faaec17aee4e26ae0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6oRyxsOS4RdCNGoMSEP-GQWoJdHgfdFi\";}'
+    '_5t_trace_sid' => '0f411dd466bf016d04e616527be19782'
+    '_5t_trace_tms' => '1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'www.jsshop.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.jsshop.com/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'PHPSESSID=f3l7l8s0iorht13vscfboibil0; _csrf=2df19557bc93aa8dddd931156840b53ee7c9424f503ddf9faaec17aee4e26ae0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226oRyxsOS4RdCNGoMSEP-GQWoJdHgfdFi%22%3B%7D; _5t_trace_sid=0f411dd466bf016d04e616527be19782; _5t_trace_tms=1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '207'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Java\\jdk1.7.0_79\\bin;C:\\Program Files\\Java\\jdk1.7.0_79\\jre\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files (x86)\\scala\\bin;C:\\Python27;C:\\Program Files\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\ProgramData\\ComposerSetup\\bin;E:\\wamp\\php-5.5.30-Win32-VC11-x64;C:\\Program Files\\TortoiseSVN\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.5.30'
+    'SERVER_NAME' => 'www.jsshop.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/gitspace/jsshop/backend/web'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'F:/gitspace/jsshop/backend/web/index.php'
+    'REMOTE_PORT' => '57117'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1447313037.453
+    'REQUEST_TIME' => 1447313037
+]
