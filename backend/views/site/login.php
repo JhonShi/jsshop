@@ -30,7 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
                 <?= $form->field($model, 'password')->passwordInput() ?>
 
-                <?= $form->field($model, 'rememberMe')->checkbox() ?>
+                <?= $form->field($model, 'rememberMe')->checkbox(['template'=>"<div style=\"margin-left: 20%;\">{input}\n{label}\n{error}</div>"]) ?>
 
                 <div class="form-group" style="padding-left: 20%;">
                     <?= Html::submitButton('进入管理中心', ['class' => 'btn btn-primary', 'name' => 'login-button' ,'style'=>'background:white;color:black;']) ?>
